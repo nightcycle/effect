@@ -1,7 +1,7 @@
 [package]
 name = "nightcycle/effect"
-description = "Allows for the animation and chaining of in-game fx"
-version = "4.0.0"
+description = "Allows for the creation and chaining of in-game fx"
+version = "1.0.0"
 authors = ["CJ Oyer <coyer@nightcycle.us>"]
 realm = "shared"
 registry = "https://github.com/upliftgames/wally-index"
