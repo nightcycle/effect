@@ -1,6 +1,6 @@
 [package]
-name = "nightcycle/package"
-description = "A package!"
+name = "nightcycle/effect"
+description = "Allows for the animation and chaining of in-game fx"
 version = "4.0.0"
 authors = ["CJ Oyer <coyer@nightcycle.us>"]
 realm = "shared"
@@ -8,7 +8,9 @@ registry = "https://github.com/upliftgames/wally-index"
 exclude = ["Packages", ".vscode"]
 
 [dependencies]
-coldfusion = "nightcycle/cold-fusion@1.0.0"
+coldfusion = "nightcycle/cold-fusion@1.0.13"
 signal = "quenty/signal@^2.0.0-canary"
 maid = "quenty/maid@^2.0.1-canary"
-isotope = "nightcycle/isotope@^1.0.0"
+isotope = "nightcycle/isotope@^1.1.12"
+valuesequence = "nightcycle/valuesequence@^1.1.0"
+math = "nightcycle/math@^2.2.1"
